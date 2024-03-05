@@ -1,0 +1,16 @@
+{
+  "id": "antontimerclk",
+  "name": "Anton Timer Clock",
+  "version": "0.01",
+  "description": "Anton Clock with an easy and quick timer function.",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock,timer",
+  "supports": ["BANGLEJS","BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    {"name":"antontimerclk.app.js","url":"app.js"},
+    {"name":"antontimerclk.img","url":"app-icon.js","evaluate":true}
+  ]
+}
